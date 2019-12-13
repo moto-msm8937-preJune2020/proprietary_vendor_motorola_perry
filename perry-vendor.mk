@@ -34,8 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.1:system/etc/firmware/opalum.tx.ext.config.1 \
     vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.2:system/etc/firmware/opalum.tx.ext.config.2 \
     vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.3:system/etc/firmware/opalum.tx.ext.config.3 \
-    vendor/motorola/perry/proprietary/etc/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat:system/etc/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat \
-    vendor/motorola/perry/proprietary/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat:system/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat \
+    vendor/motorola/perry/proprietary/etc/firmware/synaptics-ofilm-s3603r-17030201-2701E5-perry.tdat:system/etc/firmware/synaptics-ofilm-s3603r-17030201-2701E5-perry.tdat \
+    vendor/motorola/perry/proprietary/etc/firmware/synaptics-tianma-s3603r-17030802-27030E-perry.tdat:system/etc/firmware/synaptics-tianma-s3603r-17030802-27030E-perry.tdat \
     vendor/motorola/perry/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/motorola/perry/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/perry/proprietary/lib/libcce-socketjni.so:system/lib/libcce-socketjni.so \
@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/perry/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/perry/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
-    vendor/motorola/perry/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/perry/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/perry/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/perry/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
@@ -59,11 +58,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/perry/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/motorola/perry/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/perry/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-    vendor/motorola/perry/proprietary/vendor/framework/com.fingerprints.extension.jar:system/vendor/framework/com.fingerprints.extension.jar \
-    vendor/motorola/perry/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:system/vendor/lib/com.fingerprints.extension@1.0_vendor.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -83,29 +79,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
     vendor/motorola/perry/proprietary/vendor/lib/lib_motsensorlistener.so:system/vendor/lib/lib_motsensorlistener.so \
     vendor/motorola/perry/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_dw9767.so:system/vendor/lib/libactuator_dw9767.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_mot_ak7371.so:system/vendor/lib/libactuator_mot_ak7371.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
     vendor/motorola/perry/proprietary/vendor/lib/libadvalgcore.so:system/vendor/lib/libadvalgcore.so \
     vendor/motorola/perry/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/motorola/perry/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
     vendor/motorola/perry/proprietary/vendor/lib/libcamerabgprocservice.so:system/vendor/lib/libcamerabgprocservice.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_common.so:system/vendor/lib/libchromatix_ar1335_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so:system/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_cpp_liveshot.so:system/vendor/lib/libchromatix_ar1335_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_cpp_preview.so:system/vendor/lib/libchromatix_ar1335_cpp_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_cpp_snapshot.so:system/vendor/lib/libchromatix_ar1335_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_cpp_video.so:system/vendor/lib/libchromatix_ar1335_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_default_video.so:system/vendor/lib/libchromatix_ar1335_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_hfr_120.so:system/vendor/lib/libchromatix_ar1335_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_hfr_120_3a.so:system/vendor/lib/libchromatix_ar1335_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_postproc.so:system/vendor/lib/libchromatix_ar1335_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_snapshot.so:system/vendor/lib/libchromatix_ar1335_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so:system/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ar1335_zsl_video_3a.so:system/vendor/lib/libchromatix_ar1335_zsl_video_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx219_cpp_hfr_120.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_cpp_liveshot.so \
@@ -119,110 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_video_full.so:system/vendor/lib/libchromatix_imx219_video_full.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx219_zsl_preview_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_zsl_video_3a.so:system/vendor/lib/libchromatix_imx219_zsl_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_4k_video_3a.so:system/vendor/lib/libchromatix_imx338_4k_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_common.so:system/vendor/lib/libchromatix_imx338_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx338_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx338_cpp_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so:system/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so:system/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so:system/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_snapshot.so:system/vendor/lib/libchromatix_imx338_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_video.so:system/vendor/lib/libchromatix_imx338_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_cpp_video_4k.so:system/vendor/lib/libchromatix_imx338_cpp_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_default_ihdr_video.so:system/vendor/lib/libchromatix_imx338_default_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_default_video.so:system/vendor/lib/libchromatix_imx338_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_hfr_120.so:system/vendor/lib/libchromatix_imx338_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_hfr_120_3a.so:system/vendor/lib/libchromatix_imx338_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_hfr_60.so:system/vendor/lib/libchromatix_imx338_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_hfr_60_3a.so:system/vendor/lib/libchromatix_imx338_hfr_60_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_3a.so:system/vendor/lib/libchromatix_imx338_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_4k.so:system/vendor/lib/libchromatix_imx338_ihdr_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_postproc.so:system/vendor/lib/libchromatix_imx338_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so:system/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so:system/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_snapshot.so:system/vendor/lib/libchromatix_imx338_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_video_4k.so:system/vendor/lib/libchromatix_imx338_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx338_zsl_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx338_zsl_video_3a.so:system/vendor/lib/libchromatix_imx338_zsl_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_common.so:system/vendor/lib/libchromatix_mot_imx214_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_default_4k_video.so:system/vendor/lib/libchromatix_mot_imx214_default_4k_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_default_video.so:system/vendor/lib/libchromatix_mot_imx214_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120.so:system/vendor/lib/libchromatix_mot_imx214_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so:system/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60.so:system/vendor/lib/libchromatix_mot_imx214_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so:system/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_postproc.so:system/vendor/lib/libchromatix_mot_imx214_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_snapshot.so:system/vendor/lib/libchromatix_mot_imx214_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so:system/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_common.so:system/vendor/lib/libchromatix_mot_imx258_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx258_cpp_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_video.so:system/vendor/lib/libchromatix_mot_imx258_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_default_video.so:system/vendor/lib/libchromatix_mot_imx258_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx258_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_postproc.so:system/vendor/lib/libchromatix_mot_imx258_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so:system/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_common.so:system/vendor/lib/libchromatix_mot_imx362_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx362_cpp_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video.so:system/vendor/lib/libchromatix_mot_imx362_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_default_video.so:system/vendor/lib/libchromatix_mot_imx362_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_default_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_default_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120.so:system/vendor/lib/libchromatix_mot_imx362_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240.so:system/vendor/lib/libchromatix_mot_imx362_hfr_240.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60.so:system/vendor/lib/libchromatix_mot_imx362_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_postproc.so:system/vendor/lib/libchromatix_mot_imx362_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_preview.so:system/vendor/lib/libchromatix_mot_imx362_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_snapshot.so:system/vendor/lib/libchromatix_mot_imx362_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_imx362_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_video_4k.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_common.so:system/vendor/lib/libchromatix_mot_ov5695_common.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so \
@@ -232,135 +107,27 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_common.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_default_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695f60_snapshot_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_common.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_common.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_common.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_common.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_liveshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_liveshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_snapshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_snapshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_video.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_video.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video.s \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so 
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_postproc.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_4k_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_common.so:system/vendor/lib/libchromatix_mot_s5k2l7_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_preview.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_default_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video.so:system/vendor/lib/libchromatix_mot_s5k2l7_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_default_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_240.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video.so:system/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_postproc.so:system/vendor/lib/libchromatix_mot_s5k2l7_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_preview.so:system/vendor/lib/libchromatix_mot_s5k2l7_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_snapshot.so:system/vendor/lib/libchromatix_mot_s5k2l7_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_common.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_postproc.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_preview.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_snapshot.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_4k_video_3a.so:system/vendor/lib/libchromatix_ov16860_4k_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_common.so:system/vendor/lib/libchromatix_ov16860_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov16860_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video.so:system/vendor/lib/libchromatix_ov16860_cpp_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so:system/vendor/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot.so:system/vendor/lib/libchromatix_ov16860_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_snapshot.so:system/vendor/lib/libchromatix_ov16860_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_video.so:system/vendor/lib/libchromatix_ov16860_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_cpp_video_4k.so:system/vendor/lib/libchromatix_ov16860_cpp_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_default_ihdr_video.so:system/vendor/lib/libchromatix_ov16860_default_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_default_video.so:system/vendor/lib/libchromatix_ov16860_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_hfr_120.so:system/vendor/lib/libchromatix_ov16860_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_hfr_120_3a.so:system/vendor/lib/libchromatix_ov16860_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_3a.so:system/vendor/lib/libchromatix_ov16860_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_4k.so:system/vendor/lib/libchromatix_ov16860_ihdr_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_postproc.so:system/vendor/lib/libchromatix_ov16860_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_snapshot.so:system/vendor/lib/libchromatix_ov16860_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_video_4k.so:system/vendor/lib/libchromatix_ov16860_video_4k.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov16860_zsl_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov16860_zsl_video_3a.so:system/vendor/lib/libchromatix_ov16860_zsl_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_common.so:system/vendor/lib/libchromatix_ov5693_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5693_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5693_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5693_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_cpp_video.so:system/vendor/lib/libchromatix_ov5693_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_default_video.so:system/vendor/lib/libchromatix_ov5693_default_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_default_video_3a.so:system/vendor/lib/libchromatix_ov5693_default_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_hfr_120.so:system/vendor/lib/libchromatix_ov5693_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_hfr_120_3a.so:system/vendor/lib/libchromatix_ov5693_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_postproc.so:system/vendor/lib/libchromatix_ov5693_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_snapshot.so:system/vendor/lib/libchromatix_ov5693_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_ov5693_snapshot_3a.so:system/vendor/lib/libchromatix_ov5693_snapshot_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:system/vendor/lib/libchromatix_s5k3p3_common.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3_cpp_preview.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3_cpp_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video.so:system/vendor/lib/libchromatix_s5k3p3_ihdr_video.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so:system/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:system/vendor/lib/libchromatix_s5k3p3_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_snapshot.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:system/vendor/lib/libchromatix_s5k4h8_common.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so \
@@ -380,13 +147,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libflash_sky81298.so:system/vendor/lib/libflash_sky81298.so \
     vendor/motorola/perry/proprietary/vendor/lib/libflash_wd3100.so:system/vendor/lib/libflash_wd3100.so \
     vendor/motorola/perry/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/motorola/perry/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/perry/proprietary/vendor/lib/libjscore.so:system/vendor/lib/libjscore.so \
     vendor/motorola/perry/proprietary/vendor/lib/libjustshoot.so:system/vendor/lib/libjustshoot.so \
     vendor/motorola/perry/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/motorola/perry/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmbs.so:system/vendor/lib/libmbs.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmm-omxcore.so:system/vendor/lib/libmm-omxcore.so \
@@ -425,7 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_imx338.so:system/vendor/lib/libmmcamera_imx338.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
@@ -488,13 +254,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_sony_rumba_eeprom.so:system/vendor/lib/libmmcamera_sony_rumba_eeprom.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libmmcamera_vstab_module.so:system/vendor/lib/libmmcamera_vstab_module.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
@@ -507,8 +271,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/motorola/perry/proprietary/vendor/lib/libprotobuf-cpp-lpro.so:system/vendor/lib/libprotobuf-cpp-lpro.so \
     vendor/motorola/perry/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/motorola/perry/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/perry/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/motorola/perry/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
     vendor/motorola/perry/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
     vendor/motorola/perry/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
@@ -516,6 +282,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/perry/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/motorola/perry/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/motorola/perry/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/motorola/perry/proprietary/vendor/lib/motcamera.device@1.0-impl.so:system/vendor/lib/motcamera.device@1.0-impl.so \
     vendor/motorola/perry/proprietary/vendor/lib/motorola.hardware.camera.device@1.0.so:system/vendor/lib/motorola.hardware.camera.device@1.0.so \
