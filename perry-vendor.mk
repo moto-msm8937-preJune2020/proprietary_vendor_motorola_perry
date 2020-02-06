@@ -148,6 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libflash_sky81298.so:system/vendor/lib/libflash_sky81298.so \
     vendor/motorola/perry/proprietary/vendor/lib/libflash_wd3100.so:system/vendor/lib/libflash_wd3100.so \
     vendor/motorola/perry/proprietary/vendor/lib/libguy.so:system/vendor/lib/libguy.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libiio.so:system/vendor/lib/libiio.so \
     vendor/motorola/perry/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/perry/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/perry/proprietary/vendor/lib/libjscore.so:system/vendor/lib/libjscore.so \
@@ -277,12 +278,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/perry/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/perry/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/motorola/perry/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
     vendor/motorola/perry/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
     vendor/motorola/perry/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
     vendor/motorola/perry/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/motorola/perry/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/perry/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libspl.so:system/vendor/lib/libspl.so \
     vendor/motorola/perry/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/motorola/perry/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/motorola/perry/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
@@ -307,8 +312,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libdiag_system.so:system/vendor/lib64/libdiag_system.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libiio.so:system/vendor/lib64/libiio.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/motorola/perry/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/libspl.so:system/vendor/lib64/libspl.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.iio.so:system/vendor/lib64/sensors.iio.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
