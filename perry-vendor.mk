@@ -53,6 +53,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/perry/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/perry/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
+    vendor/motorola/perry/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/motorola/perry/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/motorola/perry/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/motorola/perry/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/perry/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
@@ -62,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/perry/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/motorola/perry/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -298,6 +302,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/sensors.rp.so:system/vendor/lib/sensors.rp.so \
     vendor/motorola/perry/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/motorola/perry/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
+    vendor/motorola/perry/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/motorola/perry/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -325,4 +330,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.iio.so:system/vendor/lib64/sensors.iio.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
     vendor/motorola/perry/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
-    vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+    vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
+    vendor/motorola/perry/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
