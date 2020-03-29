@@ -27,14 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/motorola/perry/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/perry/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/motorola/perry/proprietary/etc/firmware/opalum.rx.ext.config.0:system/etc/firmware/opalum.rx.ext.config.0 \
-    vendor/motorola/perry/proprietary/etc/firmware/opalum.rx.ext.config.1:system/etc/firmware/opalum.rx.ext.config.1 \
-    vendor/motorola/perry/proprietary/etc/firmware/opalum.rx.ext.config.2:system/etc/firmware/opalum.rx.ext.config.2 \
-    vendor/motorola/perry/proprietary/etc/firmware/opalum.rx.ext.config.3:system/etc/firmware/opalum.rx.ext.config.3 \
-    vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.0:system/etc/firmware/opalum.tx.ext.config.0 \
-    vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.1:system/etc/firmware/opalum.tx.ext.config.1 \
-    vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.2:system/etc/firmware/opalum.tx.ext.config.2 \
-    vendor/motorola/perry/proprietary/etc/firmware/opalum.tx.ext.config.3:system/etc/firmware/opalum.tx.ext.config.3 \
     vendor/motorola/perry/proprietary/etc/firmware/synaptics-ofilm-s3603r-17030201-2701E5-perry.tdat:system/etc/firmware/synaptics-ofilm-s3603r-17030201-2701E5-perry.tdat \
     vendor/motorola/perry/proprietary/etc/firmware/synaptics-tianma-s3603r-17030802-27030E-perry.tdat:system/etc/firmware/synaptics-tianma-s3603r-17030802-27030E-perry.tdat \
     vendor/motorola/perry/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
